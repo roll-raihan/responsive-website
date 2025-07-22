@@ -184,6 +184,13 @@ main > section{
 .sponsor-icon-container img{
   filter: grayscale(100%);
 }
+/* footer style */
+.footer{
+  text-align: center;
+  padding: 40px 410px;
+  margin-top: 130px;
+  font-size: 1.2rem;
+}
 /* responsive media query */
 /* for small device */
 @media screen and (max-width: 576px) {
@@ -209,6 +216,9 @@ main > section{
     margin-top: 20px;
     margin-left: 10px;
   }
+  .footer{
+    padding: 0;
+  }
 }
 /* for medium device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -230,5 +240,8 @@ main > section{
   #badge{
     margin-top: 20px;
     margin-left: 10px;
+  }
+  .footer{
+    padding: 10px;
   }
 }
